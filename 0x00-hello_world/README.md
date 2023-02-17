@@ -6,4 +6,6 @@ File Descriptions
 
 2-assembler: Generate the assembly code of a C code and save it in an output file
 
+3-name: Compile a C file and create an executable file called cisfun
+
 
