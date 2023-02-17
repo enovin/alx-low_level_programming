@@ -14,4 +14,6 @@ File Descriptions
 
 6-size.c: Print the size of various types on the computer it is compiled and run on
 
+100-intel: Generate the assembly code (Intel syntax) of a C file anf save it in an output file
+
 
