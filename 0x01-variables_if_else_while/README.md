@@ -4,4 +4,6 @@ File Descriptions
 
 1-last_digit.c: Print the last digit of a randomly generated number
 
+2-print_alphabet.c: Print the alphbet followed by a new line
+
 
