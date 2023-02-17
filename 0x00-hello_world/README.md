@@ -12,4 +12,6 @@ File Descriptions
 
 5-printf.c: Print exactly 'with proper grammar, but the outcome is a piece of art', followed by a new line
 
+6-size.c: Print the size of various types on the computer it is compiled and run on
+
 
