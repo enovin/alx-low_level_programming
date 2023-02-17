@@ -4,4 +4,6 @@ File Descriptions
 
 1-compiler: Compile a C file but do not link
 
+2-assembler: Generate the assembly code of a C code and save it in an output file
+
 
