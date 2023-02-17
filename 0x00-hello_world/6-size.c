@@ -1,7 +1,8 @@
 #include <stdio.h>
 
 /**
- * main - Entry point
+ * main - Shows the size of various types ...
+ * ... on the computer that it is compiled and run on
  *
  * Return: Always 0 (Success)
  */
