@@ -8,4 +8,8 @@ File Descriptions
 
 3-name: Compile a C file and create an executable file called cisfun
 
+4-puts.c: Print exactly '"Programming is like buildign a multilingual puzzle', followed by a new line
+
+5-printf.c: Print exactly 'with proper grammar, but the outcome is a piece of art', followed by a new line
+
 
