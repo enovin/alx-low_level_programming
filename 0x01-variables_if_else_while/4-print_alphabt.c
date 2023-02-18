@@ -13,7 +13,7 @@ int main(void)
 
 	letter = 'a';
 
-	while (letter <= 'a')
+	while (letter <= 'z')
 	{
 		if (letter != 'q' && letter != 'e')
 		{
