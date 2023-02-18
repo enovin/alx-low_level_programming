@@ -1,27 +1,30 @@
 #include <stdio.h>
 
 /**
- * main - Print all possible different combinations of three digits,
- * separated by a comma and a space
+ * main - Print the smallest possible different combinations of
+ * three digits,separated by a comma and a space
  *
  * Return: Always (0)
  */
 
 int main(void)
 {
-	int i, j;
+	int hundreds, tens, ones;
 
-	for (i = 0, i < 10, i++)
+	for (hundreds = 0; hundreds <= 7; hundreds++)
 	{
-		for (j = 0, j < 10, j++)
+		for (tens = hundreds + 1; tens <= 8; tens++)
 		{
-			putchar(i + '0');
-			putchar(j + '0');
-
-			if (i != 9 || j != 9)
+			for (ones = tens + 1; ones <= 9; ones++)
 			{
-				putchar(',');
-				putchar(' ');
+				putchar((hundreds % 10) + '0');
+				putchar((tens % 10) + '0');
+				putchar((ones % 10) + '0');
+				if (hundreds != 7 || tens != 8 || ones != 9)
+				{
+					putchar(',');
+					putchar(' ');
+				}
 			}
 		}
 	}

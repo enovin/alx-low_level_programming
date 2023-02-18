@@ -22,4 +22,6 @@ File Descriptions
 
 100-print_comb3.c: Print all possible different combinations of two digits, separated by a comma and a space
 
+101-print_comb4.c: Print all possible different combinations of three digits, separated by a comma and a space
+
 
