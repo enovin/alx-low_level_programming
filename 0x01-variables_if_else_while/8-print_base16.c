@@ -19,7 +19,7 @@ int main(void)
 		hex_digit++;
 	}
 
-	hex_digit = 'a'
+	hex_digit = 'a';
 
 	while (hex_digit >= 'f')
 	{
