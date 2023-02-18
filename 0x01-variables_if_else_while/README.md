@@ -18,10 +18,10 @@ File Descriptions
 
 8-print_base16.c: Print all the numbers of base 16, followed by a new line
 
-9-print_comb.c: Print all the possible combinations of single-digit numbers, followed by a comma and a space, followed by a new line
+9-print_comb.c: Print all possible combinations of single-digit numbers, followed by a comma and a space, followed by a new line
 
 100-print_comb3.c: Print all possible different combinations of two digits, separated by a comma and a space
 
 101-print_comb4.c: Print all possible different combinations of three digits, separated by a comma and a space
 
-
+102-print_combi5.c: Print all possible different combinations of two two-digit numbers, separated bya comma and a space
