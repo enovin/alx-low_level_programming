@@ -8,4 +8,6 @@ File Descriptions
 
 3-print_alphabets.c: Print the alphabet in lowercase, then in uppercase, followed by a new line
 
+4-print_alphabt.c: Print the alphabet in lowercase, except 'q' and 'e', followed by a new line
+
 
