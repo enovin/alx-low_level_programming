@@ -10,4 +10,6 @@ File Descriptions
 
 4-print_alphabt.c: Print the alphabet in lowercase, except 'q' and 'e', followed by a new line
 
+5-print_numbers: Print all the single digit numbers of base 10, followed by a new line
+
 
