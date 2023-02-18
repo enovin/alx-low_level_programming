@@ -20,4 +20,6 @@ File Descriptions
 
 9-print_comb.c: Print all the possible combinations of single-digit numbers, followed by a comma and a space, followed by a new line
 
+100-print_comb3.c: Print all possible different combinations of two digits, separated by a comma and a space
+
 
