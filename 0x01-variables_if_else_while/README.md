@@ -14,4 +14,6 @@ File Descriptions
 
 6-print_numberz.c: Print all the single digit numbers of base 10, followed by a new line
 
+7-print_tebahpla.c: Print the lowercase alphabet in reverse, followed by a new line
+
 
