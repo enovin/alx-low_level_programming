@@ -18,4 +18,6 @@ File Descriptions
 
 8-print_base16.c: Print all the numbers of base 16, followed by a new line
 
+9-print_comb.c: Print all the possible combinations of single-digit numbers, followed by a comma and a space, followed by a new line
+
 
