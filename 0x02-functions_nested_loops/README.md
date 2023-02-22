@@ -10,4 +10,6 @@ File Descriptions
 
 4-isalpha.c: Checks for alphabetic character, uppercase or lowercase
 
+5-sign.c: Prints the sign of a number
+
 
