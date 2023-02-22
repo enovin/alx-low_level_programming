@@ -1,7 +1,9 @@
 File Descriptions
 
-0-putchar.c: Print _putchar, followed by a new line
+0-putchar.c: Prints _putchar, followed by a new line
 
-1-alphabet.c: Print the alphabet in lowercase, followed by a new line
+1-alphabet.c: Prints the alphabet in lowercase, followed by a new line
+
+2-print_alphabet_x10.c: Prints 10 times the alphabet, followed by a new line
 
 
