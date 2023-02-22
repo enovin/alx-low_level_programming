@@ -18,4 +18,6 @@ File Descriptions
 
 8-24_hours.c: Prints every minute of the day of Jack Bauer from 00:00 to 23:59
 
+9-times_table. Prints the 9 times table starting with a 0
+
 
