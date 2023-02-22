@@ -16,4 +16,6 @@ File Descriptions
 
 7-print_last_digit: Prints the last digit of an integer
 
+8-24_hours.c: Prints every minute of the day of Jack Bauer from 00:00 to 23:59
+
 
