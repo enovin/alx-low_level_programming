@@ -14,4 +14,6 @@ File Descriptions
 
 6-sign.c: Computes the absolute of an integer
 
+7-print_last_digit: Prints the last digit of an integer
+
 
