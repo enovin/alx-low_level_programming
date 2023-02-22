@@ -12,4 +12,6 @@ File Descriptions
 
 5-sign.c: Prints the sign of a number
 
+6-sign.c: Computes the absolute of an integer
+
 
