@@ -8,4 +8,6 @@ File Descriptions
 
 3-islower.c: Checks for lowercase character
 
+4-isalpha.c: Checks for alphabetic character, uppercase or lowercase
+
 
