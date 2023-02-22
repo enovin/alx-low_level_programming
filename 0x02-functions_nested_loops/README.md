@@ -20,4 +20,6 @@ File Descriptions
 
 9-times_table. Prints the 9 times table starting with a 0
 
+10-add.c: Prints the sum of two integers
+
 
