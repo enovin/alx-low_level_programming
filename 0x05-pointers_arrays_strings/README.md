@@ -16,4 +16,6 @@ File Descriptions
 
 7-puts_half.c: Prints the second half of a string, followed by a new line.
 
+8-print_array.c: Prints n elements of an array of integers, followed by a new line.
+
 
