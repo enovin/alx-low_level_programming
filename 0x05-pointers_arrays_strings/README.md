@@ -8,4 +8,6 @@ File Descriptions
 
 3-puts.c: Prints a string, followed by a new line, to stdout.
 
+4-print_rev.c: Prints a string in reverse.
+
 
