@@ -10,4 +10,6 @@ File Descriptions
 
 4-print_rev.c: Prints a string in reverse.
 
+5-rev_string.c: Reverses a string.
+
 
