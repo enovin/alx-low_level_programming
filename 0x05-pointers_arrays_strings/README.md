@@ -6,4 +6,6 @@ File Descriptions
 
 2-strlen.c: Calculates the length of a string.
 
+3-puts.c: Prints a string, followed by a new line, to stdout.
+
 
