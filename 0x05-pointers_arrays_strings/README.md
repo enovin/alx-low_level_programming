@@ -18,4 +18,8 @@ File Descriptions
 
 8-print_array.c: Prints n elements of an array of integers, followed by a new line.
 
+9-strcpy.c: Copies the streing pointed to by src, including the terminating null byte (\0), to the puffer pointed to by dest.
+
+100-atoi.c: Convert a string to an integer.
+
 
