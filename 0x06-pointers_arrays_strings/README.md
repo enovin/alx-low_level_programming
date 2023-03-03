@@ -12,4 +12,6 @@ File Descriptions
 
 5-string_toupper.c: Converts all lowercase letters in a string to uppercase.
 
+6-cap_string.c: Capitalizes all words on a string.
+
 
