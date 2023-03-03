@@ -14,4 +14,6 @@ File Descriptions
 
 6-cap_string.c: Capitalizes all words on a string.
 
+7-leet.c: Encodes a string to 1337.
+
 
