@@ -10,4 +10,6 @@ File Descriptions
 
 4-rev_array.c: Reverses the content of an array of n integers
 
+5-string_toupper.c: Converts all lowercase letters in a string to uppercase.
+
 
