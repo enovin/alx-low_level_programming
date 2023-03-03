@@ -8,4 +8,6 @@ File Descriptions
 
 3-strcmp.c: Compares two strings.
 
+4-rev_array.c: Reverses the content of an array of n integers
+
 
