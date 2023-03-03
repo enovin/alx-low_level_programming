@@ -16,4 +16,6 @@ File Descriptions
 
 7-leet.c: Encodes a string to 1337.
 
+100-rot13.c: Encodes a string using rot13.
+
 
