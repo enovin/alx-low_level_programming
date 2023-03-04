@@ -4,4 +4,6 @@ File Descriptions
 
 1-isdigit.c: Checks for digit character (0 through 9).
 
+2-mul.c: Multiplies two integers.
+
 
