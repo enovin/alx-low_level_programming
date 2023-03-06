@@ -4,4 +4,6 @@ File Descriptions
 
 1-memcpy.c: Copies memory area.
 
+2-strchr.c: Locates a character in a string.
+
  
