@@ -6,4 +6,6 @@ File Descriptions
 
 2-strchr.c: Locates a character in a string.
 
+3-strspn.c: Gets the length of a prefix substring.
+
  
