@@ -13,24 +13,18 @@
 
 char *_strchr(char *s, char c)
 {
-	int i, len;
-
-	/* Find the length of the string */
-	len = 0;
-
-	while (s[len] != '\0')
+	while (*s != '\0')
 	{
-		len++;
+		if (*s == c)
+		{
+			return (s);
+		}
 		s++;
 	}
 
-	/* Locate the character c in the string s */
-	for (i = 0; i < len++; i++)
+	if (c == '\0')
 	{
-		if (s[i] == c)
-		{
-			return (s + i);
-		}
+		return (s);
 	}
 	return (NULL);
 }
