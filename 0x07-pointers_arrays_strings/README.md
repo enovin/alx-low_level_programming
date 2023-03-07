@@ -14,4 +14,20 @@ File Descriptions
 
 7-print_chessboard.c: Prints the chessboard.
 
+8-print_diagsums.c: Prints the sum of the diagonals of a square matrix of integers.
+
+8-print_diagsums.c: Prints the sum of the diagonals of a square matrix of integers.
+
+8-print_diagsums.c: Prints the sum of the diagonals of a square matrix of integers.
+
+8-print_diagsums.c: Prints the sum of the diagonals of a square matrix of integers.
+
+8-print_diagsums.c: Prints the sum of the diagonals of a square matrix of integers.
+
+8-print_diagsums.c: Prints the sum of the diagonals of a square matrix of integers.
+
+8-print_diagsums.c: Prints the sum of the diagonals of a square matrix of integers.
+
+8-print_diagsums.c: Prints the sum of the diagonals of a square matrix of integers.
+
 
