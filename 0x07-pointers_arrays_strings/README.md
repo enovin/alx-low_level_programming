@@ -12,4 +12,6 @@ File Descriptions
 
 5-strstr.c: Locates a substring.
 
+7-print_chessboard.c: Prints the chessboard.
+
 
