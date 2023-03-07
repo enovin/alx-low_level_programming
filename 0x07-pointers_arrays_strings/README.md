@@ -8,6 +8,8 @@ File Descriptions
 
 3-strspn.c: Gets the length of a prefix substring.
 
-4-strpbrk.c: Searches a string for any set of bytes
+4-strpbrk.c: Searches a string for any set of bytes.
 
- 
+5-strstr.c: Locates a substring.
+
+
