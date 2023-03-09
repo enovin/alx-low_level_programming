@@ -10,5 +10,6 @@ File Descriptions
 
 4-pow_recursion.c: Returns the value of x raised to the power y.
 
+5-sqrt_recursion.c: Returns the natural square root of a number.
 
-
+6-is_prime_number.c: Returns 1 if the input integer is a prime number, otherwise return 0.
