@@ -6,4 +6,6 @@ File Descriptions
 
 2-strlen_recursion.c: Returns the length of a string.
 
+3-factorial.c: Returns the factorial of a given number.
+
 
