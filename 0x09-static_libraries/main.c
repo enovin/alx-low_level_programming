@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * main - Entry point
+ * main - Prints string using puts
  *
  * Return: Always 0
  */
