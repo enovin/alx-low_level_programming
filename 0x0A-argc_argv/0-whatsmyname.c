@@ -2,6 +2,8 @@
 
 /**
  * main - Entry point
+ * @argc: The argument counter
+ * @argv: The argument vector
  *
  * Description: This program prints its own name followed by a new line.
  * If the program is renamed, it should print its new name.
