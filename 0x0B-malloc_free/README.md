@@ -6,4 +6,6 @@ File Descriptions
 
 2-strconcat.c: Concatenates two strings and returns a pointer to the concatenated string.
 
+3-alloc_grid.c: Returns a pointer to a 2-dimensional array of integers, initialized with 0.
+
 
