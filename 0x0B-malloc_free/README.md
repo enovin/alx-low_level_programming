@@ -8,4 +8,6 @@ File Descriptions
 
 3-alloc_grid.c: Returns a pointer to a 2-dimensional array of integers, initialized with 0.
 
+4-free_grid.c: Frees a 2 dimensional grid previously created by the alloc_grid function.
+
 
