@@ -1,26 +1,22 @@
 #include <stdlib.h>
+#include <string.h>
 
 /**
  *count_words - Counts the number of words in a string.
  *@str: The string to count words in.
- *
  *Return: The number of words in str.
  */
 int count_words(char *str)
 {
-    int count = 0, i;
+	int count = 0, i;
 
-    for (i = 0; str[i]; i++)
-    {
-        if (str[i] != ' ' && (i == 0 || str[i - 1] == ' '))
-            count++;
-    }
+	for (i = 0; str[i] != '\0'; i++)
+	{
+		if (str[i] != ' ' && (i == 0 || str[i - 1] == ' '))
+			count++;
+	}
 
-    /* If the input string contains only one space, count it as one word */
-    if (count == 0 && str[0] == ' ')
-        count = 1;
-
-    return (count);
+	return count;
 }
 
 /**
@@ -31,7 +27,7 @@ void free_words(char **words)
 {
 	int i;
 
-	for (i = 0; words[i]; i++)
+	for (i = 0; words[i] != NULL; i++)
 		free(words[i]);
 
 	free(words);
@@ -40,40 +36,39 @@ void free_words(char **words)
 /**
  *strtow - Splits a string into words.
  *@str: The string to split.
- *
  *Return: A pointer to an array of strings (words)
- *or NULL if str == NULL or *str == "" or if memory allocation fails.
+ *or NULL if str == NULL or if memory allocation fails.
  */
 char **strtow(char *str)
 {
 	char **words;
 	int i, j, k, len, nwords;
 
-	if (str == NULL || *str == '\0')
-		return (NULL);
+	if (str == NULL || str[0] == '\0')
+		return NULL;
 
 	nwords = count_words(str);
-	words = malloc(sizeof(char *) * (nwords + 1));
+	words = malloc(sizeof(char*) *(nwords + 1));
 
 	if (words == NULL)
-		return (NULL);
+		return NULL;
 
 	for (i = 0, j = 0; j < nwords; i++)
 	{
-		if (str[i] == ' ' || str[i] == '\t' || str[i] == '\n')
+		if (str[i] == ' ')
 			continue;
 
 		len = 0;
 
-		while (str[i + len] && str[i + len] != ' ' &&
-			str[i + len] != '\t' && str[i + len] != '\n')
+		while (str[i + len] != ' ' && str[i + len] != '\0')
 			len++;
 
-		words[j] = malloc(sizeof(char) * (len + 1));
+		words[j] = malloc(sizeof(char) *(len + 1));
+
 		if (words[j] == NULL)
 		{
 			free_words(words);
-			return (NULL);
+			return NULL;
 		}
 
 		for (k = 0; k < len; k++)
@@ -85,5 +80,5 @@ char **strtow(char *str)
 	}
 
 	words[j] = NULL;
-	return (words);
+	return words;
 }
