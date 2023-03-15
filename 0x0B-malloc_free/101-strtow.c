@@ -10,9 +10,11 @@ int count_words(char *str)
 {
 	int count = 0, i;
 
-	for (i = 0; str[i] != '\0'; i++)
+	for (i = 0; str[i]; i++)
 	{
-		if (str[i] != ' ' && (i == 0 || str[i - 1] == ' '))
+		if (str[i] != ' ' && str[i] != '\t' && str[i] != '\n' &&
+			(i == 0 || str[i - 1] == ' ' || str[i - 1] == '\t' ||
+				str[i - 1] == '\n'))
 			count++;
 	}
 
@@ -27,7 +29,7 @@ void free_words(char **words)
 {
 	int i;
 
-	for (i = 0; words[i] != NULL; i++)
+	for (i = 0; words[i]; i++)
 		free(words[i]);
 
 	free(words);
@@ -37,34 +39,33 @@ void free_words(char **words)
  *strtow - Splits a string into words.
  *@str: The string to split.
  *Return: A pointer to an array of strings (words)
- *or NULL if str == NULL or if memory allocation fails.
+ *        or NULL if str == NULL or *str == "" or if memory allocation fails.
  */
 char **strtow(char *str)
 {
 	char **words;
-	int i, j, k, len, nwords;
+	int i, j, k, nwords, len;
 
-	if (str == NULL || str[0] == '\0')
-		return (NULL);
+	if (str == NULL || *str == '\0')
+		return NULL;
 
 	nwords = count_words(str);
-	words = malloc(sizeof(char *) * (nwords + 1));
 
+	words = malloc(sizeof(char *) * (nwords + 1));
 	if (words == NULL)
 		return (NULL);
 
 	for (i = 0, j = 0; j < nwords; i++)
 	{
-		if (str[i] == ' ')
+		if (str[i] == ' ' || str[i] == '\t' || str[i] == '\n')
 			continue;
 
 		len = 0;
-
-		while (str[i + len] != ' ' && str[i + len] != '\0')
+		while (str[i + len] && str[i + len] != ' ' &&
+			str[i + len] != '\t' && str[i + len] != '\n')
 			len++;
 
 		words[j] = malloc(sizeof(char) * (len + 1));
-
 		if (words[j] == NULL)
 		{
 			free_words(words);
