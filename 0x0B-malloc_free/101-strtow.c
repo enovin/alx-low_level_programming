@@ -8,15 +8,19 @@
  */
 int count_words(char *str)
 {
-	int count = 0, i;
+    int count = 0, i;
 
-	for (i = 0; str[i]; i++)
-	{
-		if (str[i] != ' ' && (i == 0 || str[i - 1] == ' '))
-			count++;
-	}
+    for (i = 0; str[i]; i++)
+    {
+        if (str[i] != ' ' && (i == 0 || str[i - 1] == ' '))
+            count++;
+    }
 
-	return (count);
+    // If the input string contains only one space, count it as one word
+    if (count == 0 && str[0] == ' ')
+        count = 1;
+
+    return (count);
 }
 
 /**
