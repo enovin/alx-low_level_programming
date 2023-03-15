@@ -13,6 +13,10 @@ void free_grid(int **grid, int height);
 
 char *argstostr(int ac, char **av);
 
+int count_words(char *str);
 
+void free_words(char **words);
+
+char **strtow(char *str);
 
 #endif /* MAIN_H */
