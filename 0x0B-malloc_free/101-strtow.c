@@ -16,7 +16,7 @@ int count_words(char *str)
             count++;
     }
 
-    // If the input string contains only one space, count it as one word
+    /* If the input string contains only one space, count it as one word */
     if (count == 0 && str[0] == ' ')
         count = 1;
 
