@@ -2,8 +2,7 @@
 #define MAIN_H
 
 int _putchar(char c);
-
-/* Other function prototypes can go here */
+void print_alphabet(void);
 
 #endif /* MAIN_H */
 
