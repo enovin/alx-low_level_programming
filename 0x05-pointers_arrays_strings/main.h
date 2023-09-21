@@ -14,8 +14,8 @@ void print_array(int *a, int n);
 char *_strcpy(char *dest, char *src);
 int _atoi(char *s);
 
-/*Helper function prototype for putchar (used in your project) */
+/*Helper function prototypes (used in your project) */
 int _putchar(char c);
-
+int _strlen(char *s);
 
 #endif /*MAIN_H */
