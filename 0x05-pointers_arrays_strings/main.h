@@ -16,6 +16,5 @@ int _atoi(char *s);
 
 /*Helper function prototypes (used in your project) */
 int _putchar(char c);
-int _strlen(char *s);
 
 #endif /*MAIN_H */
