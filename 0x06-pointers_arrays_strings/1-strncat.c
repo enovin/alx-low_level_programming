@@ -13,8 +13,8 @@ char *_strncat(char *dest, char *src, int n)
 	int dest_idx = 0;
 	int src_idx = 0;
 
-	/* Find the terminating null byte of dest
-	while (dest[dest_idx] != '\0') */
+	/* Find the terminating null byte of dest */
+	while (dest[dest_idx] != '\0')
 	{
 		dest_idx++;
 	}
